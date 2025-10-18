@@ -16,6 +16,8 @@ spec:
     spec:
       containers:
       - name: edumanage-backend
-        image: nginx:1.14.2
+        image: samicontainerregistrycicd.azurecr.io/backend:12
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: acr-secret  
