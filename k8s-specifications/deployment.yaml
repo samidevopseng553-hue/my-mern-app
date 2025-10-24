@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: edumanage-backend
-        image: samicontainerregistrycicd.azurecr.io/backend:12
+        image: samicontainerregistrycicd.azurecr.io/backend:20
         ports:
         - containerPort: 80
       imagePullSecrets:
